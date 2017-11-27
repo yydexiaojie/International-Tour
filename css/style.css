@@ -1,1 +1,80 @@
-a{}
+/** 全局reset **/
+body,header,footer,section,div,span,p,img,a,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,i,b,u,del,menu,nav,fieldset,legend,article,aside,details,figcaption,hgroup,pre,code,from,blockquote,th,td,tr,hr,table,img,figure,button,input,textarea{padding:0;margin:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);font-family:HelveticaNeueLTArabic-Roman2,Arial,Helvetica; line-height: 1; resize: none; font-weight: normal;}
+html, body{width: 100%; height: 100%; direction: rtl; color: #535353; background:#fff; margin: 0 auto;}
+html{background: #f8f8f8;}
+/* webkit引擎的浏览器取消默认样式(-webkit-appearance) */
+input,textarea{-webkit-user-select:auto !important;user-select:auto !important;/*-webkit-appearance:none;*/}
+:focus{outline:none;}
+img{vertical-align:middle;border:0 none;}
+ul{list-style:none;}
+a{text-decoration:none;color:inherit; cursor: pointer;}
+section{display:block;margin:0 auto; background-color: #fff}
+header,footer{margin:0 auto;width:100%;}
+em,i{font-style:normal;}
+button,input{border:0 none;}
+u,del{text-decoration:none;}
+.pull-rtl{direction: rtl;}
+.pull-ltr{direction: ltr; text-align: right;}
+/* webkit引擎的浏览器取消默认样式 */
+input[type="submit"],input[type="reset"],input[type="button"],input[type="password"],input[type="text"],input[type="search"],input[type="number"],button{-webkit-appearance:none;outline:none;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix { display:inline-block;}
+.pull_center{text-align: center;}
+/*media设置适配不同移动端屏幕、*/
+html{font-size: 100px;}
+@media only screen and (max-width:359px) and (min-width:320px) {
+    html, body{
+        font-size: 42.5px !important;
+    }
+    section{
+      min-height: 405px;
+    }
+}
+@media only screen and (max-width:374px) and (min-width:360px) {
+    html, body{
+        font-size: 47.9px !important;
+    }
+    section{
+      min-height: 431px;
+    }
+}
+@media only screen and (max-width:383px) and (min-width:375px) {
+   html, body{
+        font-size: 50px !important;
+    }
+    section{
+      min-height: 488px;
+    }
+}
+@media only screen and (max-width:411px) and (min-width:384px) {
+   html, body{
+        font-size: 51.2px !important;
+    }
+    section{
+      /*min-height: 577px;*/
+    }
+}
+@media only screen and (max-width:413px) and (min-width:412px) {
+   html, body{
+        font-size: 54.93px !important;
+    }
+    section{
+      min-height: 472px;
+    }
+}
+@media only screen and (max-width:639px) and (min-width:414px) {
+   html, body{
+        font-size: 55.2px !important;
+    }
+    section{
+      min-height: 551px;
+    }
+}
+}@media only screen and (max-width:750px) and (min-width:641px) {
+   html, body{
+        font-size: 100px !important;
+    }
+}
+
+/*web站点样式*/
+.ss{color: red}
